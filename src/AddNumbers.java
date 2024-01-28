@@ -50,10 +50,10 @@ public void Checknulldata() {
 
     public static void main(String[] args) throws IOException {
 
-        int i = 0 ;
+
         AddNumbers addNumbers = new AddNumbers();
         int totfn = 0;
-        for (int j = 0 ; j<10 ; j++) {
+        for (int ktr = 0 ; ktr<10 ; ktr++) {
             System.out.println("Enter Number");
             InputStreamReader inp = new InputStreamReader(System.in);
             BufferedReader br = new BufferedReader(inp);
